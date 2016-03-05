@@ -9,8 +9,8 @@ public class mysel {
 	
 @Test
 public void hey(){
-WebDriver dr = new FirefoxDriver();
-	dr.get("http://www.google.com");
+//WebDriver dr = new FirefoxDriver();
+	//dr.get("http://www.google.com");
 	
 }
 	
