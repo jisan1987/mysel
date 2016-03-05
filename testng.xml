@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SimpleSite_Regression" parallel="classes"
+	thread-count="3" >
+
+	<test name="HomePageTest1">
+		<parameter name="url" value="http://www.simplesite.com" />
+		<classes>
+			<class name="com.acxiom.tests.mysel" />
+		</classes>
+	</test>
+
+</suite>

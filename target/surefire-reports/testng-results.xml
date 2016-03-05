@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SimpleSite_Regression" duration-ms="7388" started-at="2016-02-29T02:30:06Z" finished-at="2016-02-29T02:30:13Z">
+    <groups>
+    </groups>
+    <test name="HomePageTest1" duration-ms="7388" started-at="2016-02-29T02:30:06Z" finished-at="2016-02-29T02:30:13Z">
+      <class name="com.acxiom.tests.test1">
+        <test-method status="PASS" signature="test1_1(java.lang.String)[pri:0, instance:com.acxiom.tests.test1@1807f5a7]" name="test1_1" duration-ms="5776" started-at="2016-02-28T20:30:06Z" finished-at="2016-02-28T20:30:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.simplesite.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_1 -->
+        <test-method status="PASS" signature="test1_2()[pri:0, instance:com.acxiom.tests.test1@1807f5a7]" name="test1_2" duration-ms="0" started-at="2016-02-28T20:30:11Z" finished-at="2016-02-28T20:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_2 -->
+        <test-method status="PASS" signature="test1_3()[pri:0, instance:com.acxiom.tests.test1@1807f5a7]" name="test1_3" duration-ms="0" started-at="2016-02-28T20:30:11Z" finished-at="2016-02-28T20:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1_3 -->
+      </class> <!-- com.acxiom.tests.test1 -->
+      <class name="com.acxiom.tests.test2">
+        <test-method status="PASS" signature="test2_1(java.lang.String)[pri:0, instance:com.acxiom.tests.test2@66ea810]" name="test2_1" duration-ms="7369" started-at="2016-02-28T20:30:06Z" finished-at="2016-02-28T20:30:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://www.simplesite.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_1 -->
+        <test-method status="PASS" signature="test2_2()[pri:0, instance:com.acxiom.tests.test2@66ea810]" name="test2_2" duration-ms="0" started-at="2016-02-28T20:30:13Z" finished-at="2016-02-28T20:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_2 -->
+        <test-method status="PASS" signature="test2_3()[pri:0, instance:com.acxiom.tests.test2@66ea810]" name="test2_3" duration-ms="1" started-at="2016-02-28T20:30:13Z" finished-at="2016-02-28T20:30:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2_3 -->
+      </class> <!-- com.acxiom.tests.test2 -->
+    </test> <!-- HomePageTest1 -->
+  </suite> <!-- SimpleSite_Regression -->
+</testng-results>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SimpleSite_Regression]">
+  <parameter name="url" value="http://www.simplesite.com"/>
+  <test name="HomePageTest">
+    <parameter name="url" value="http://www.simplesite.com"/>
+    <classes>
+      <class name="com.acxiom.tests.test1"/>
+    </classes>
+  </test> <!-- HomePageTest -->
+</suite> <!-- Failed suite [SimpleSite_Regression] -->
