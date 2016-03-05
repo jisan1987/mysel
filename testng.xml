@@ -4,7 +4,7 @@
 	thread-count="3" >
 
 	<test name="HomePageTest1">
-		<parameter name="url" value="http://www.simplesite.com" />
+<!-- 		<parameter name="url" value="http://www.simplesite.com" />   -->
 		<classes>
 			<class name="com.acxiom.tests.mysel" />
 		</classes>
