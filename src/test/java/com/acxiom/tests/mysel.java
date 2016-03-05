@@ -22,7 +22,7 @@ caps.setBrowserName("firefox");
 caps.setPlatform(Platform.WINDOWS);
 dr=new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"), caps);
 	dr.get("http://www.google.com");
-	
+	dr.close();
 }
 	
 	
