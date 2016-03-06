@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.057 sec <<< FAILURE! - in TestSuite
-hey(com.acxiom.tests.mysel)  Time elapsed: 0.607 sec  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
-Command duration or timeout: 176 milliseconds
-Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
-System info: host: 'Spiderman', ip: '192.168.56.1', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-	at com.acxiom.tests.mysel.hey(mysel.java:24)
-Caused by: java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.062 sec - in TestSuite
