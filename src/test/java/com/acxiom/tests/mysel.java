@@ -17,9 +17,10 @@ protected WebDriver dr;
 	
 @Test
 public void hey() throws IOException{
-DesiredCapabilities caps = DesiredCapabilities.firefox();
-caps.setBrowserName("firefox");
+DesiredCapabilities caps = DesiredCapabilities.chrome();
+caps.setBrowserName("chrome");
 caps.setPlatform(Platform.WINDOWS);
+System.setProperty("webdriver.chrome.driver","C:/chromedriver.exe");
 dr=new RemoteWebDriver(new URL("http://10.0.0.9:4444/wd/hub"), caps);
 	dr.get("http://www.google.com");
 	dr.close();

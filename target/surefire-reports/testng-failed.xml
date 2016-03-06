@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" verbose="0" name="Failed suite [SimpleSite_Regression]" parallel="classes">
+  <test name="HomePageTest1(failed)" parallel="classes">
+    <classes>
+      <class name="com.acxiom.tests.mysel">
+        <methods>
+          <include name="hey"/>
+        </methods>
+      </class> <!-- com.acxiom.tests.mysel -->
+    </classes>
+  </test> <!-- HomePageTest1(failed) -->
+</suite> <!-- Failed suite [SimpleSite_Regression] -->
